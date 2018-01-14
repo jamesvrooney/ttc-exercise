@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/jamesvrooney/ttc-exercise/issues"
   },
-  "homepage": "https://github.com/jamesvrooney/ttc-exercise#readme"
+  "homepage": "https://github.com/jamesvrooney/ttc-exercise#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }

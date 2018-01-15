@@ -2,10 +2,8 @@ const express = require('express');
 
 const router = express.Router();
 
-router.get('/', (req, res, next) => {
-    res.status(200).json({
-        message: 'Handling GET requests to /repositories'
-    });
-});
+const repositoryController = require('../controllers/repositories');
+
+router.get('/', repositoryController.repositories_get_all);
 
 module.exports = router;
